@@ -1,5 +1,7 @@
 import { SignUp } from '@clerk/nextjs'
 
-export function SignUpView() {
+import React from 'react'
+
+export const SignUpView = () => {
   return <SignUp />
 }
