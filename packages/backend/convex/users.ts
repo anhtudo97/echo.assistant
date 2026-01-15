@@ -19,7 +19,7 @@ export const create = mutation({
 
     const orgId = identity.orgId as string
 
-    if(!orgId) {
+    if (!orgId) {
       throw new Error("No organization selected")
     }
 
