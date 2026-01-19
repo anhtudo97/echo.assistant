@@ -5,6 +5,7 @@ const isPublicRoute = createRouteMatcher([
   // Public routes that don't require authentication
   "/sign-in(.*)",
   "/sign-up(.*)",
+  // "/sentry-example-page(.*)",
 ])
 
 const isOrgFreeRoute = createRouteMatcher([
