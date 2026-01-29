@@ -1,9 +1,9 @@
-import AuthGuard from '@/modules/auth/ui/components/auth-guard'
-import React, { PropsWithChildren } from 'react'
+import DashboardLayout from '@/modules/dashboard/ui/layouts/dashboard-layout'
+import { PropsWithChildren } from 'react'
 
 const layout = ({ children }: PropsWithChildren) => {
   return (
-    <AuthGuard>{children}</AuthGuard>
+    <DashboardLayout>{children}</DashboardLayout>
   )
 }
 
